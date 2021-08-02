@@ -8,19 +8,19 @@ function draw()
 {
   background(black);
   
-  if (keydown(right)) {
+  if (keyDown(right)) {
     background(blue);
   }
   
-  if (keydown(left)) {
+  if (keyDown(left)) {
     background(red);
   }
   
-  if (keydown(up)) {
+  if (keyDown(up)) {
     background(green);
   }
   
-  if (keydown(down)) {
+  if (keyDown(down)) {
     background(yellow);
   }
 
